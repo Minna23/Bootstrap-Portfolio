@@ -26,5 +26,6 @@ Using Bootstrap, I had to build
 
 In this project I built a responsible and accessible page, using placeholders instead of texts and some of the pictures.
 
-Pictures of the deployed page:
-Link to the deployed page:
+Pictures of the deployed page: ![image](https://user-images.githubusercontent.com/21089692/220207279-b1129135-dc5e-4527-9655-74dba37207d9.png)
+
+Link to the deployed page:https://minna23.github.io/Bootstrap-Portfolio/

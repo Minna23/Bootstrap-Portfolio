@@ -14,21 +14,18 @@
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
             <h1 class="display-4">Andrea Teiermayer</h1>
-            <img src="images/profil.jpg" width="100px" alt="profile picture">
+            <img src="images/profil.jpg" alt="profile picture">
             <p class="lead">Librarian with an interest in linguistics and programming</p>
             <nav>
                 <ul class="nav justify-content-end">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">About me</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Work">Work</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Work</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Skills</a>
+                        <a class="nav-link" href="#Skills">Skills</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Contact me</a>
+                        <a class="nav-link" href="#Contact-me">Contact me</a>
                     </li>
                 </ul>
             </nav>
@@ -43,48 +40,51 @@
              
           
     </header>
-
-    <section class="page-section">
-        <div class="container-fluid">  
-        <h2>Work</h2>
-        <a href="#" class="card lorem1">
-            <div class="card-body">
-                <h5 class="card-title">Lorem ipsum</h5>
-                <span class="card-text">consectetur adipiscing elit. Nunc id lorem sagittis, laoreet dui sit amet, tincidunt est.</span>
+        
+        <section class="page-section">
+            <h2 id="Work">Work</h2>
+            <div class="card-group flex-container">
+                <a href="#" class="card lorem1">
+                    <h3 class="card-title">Lorem ipsum</h3>
+                    <div class="card-body">    
+                        <p class="card-text">consectetur adipiscing elit. Nunc id lorem sagittis, laoreet dui sit amet, tincidunt est.</p>
+                    </div>
+                </a>        
+                <a href="#" class="card lorem2">
+                    <div class="card-body">
+                        <h3 class="card-title">Lorem ipsum</h3>
+                        <p class="card-text">consectetur adipiscing elit. Nunc id lorem sagittis, laoreet dui sit amet, tincidunt est.</p>
+                    </div>
+                </a>
+                <a href="#" class="card lorem3">
+                    <div class="card-body">
+                        <h3 class="card-title">Lorem ipsum</h3>
+                        <p class="card-text">consectetur adipiscing elit. Nunc id lorem sagittis, laoreet dui sit amet, tincidunt est.</p>
+                    </div>
+                </a>
+                <a href="#" class="card lorem4">
+                    <div class="card-body">
+                        <h3 class="card-title">Lorem ipsum</h3>
+                        <p class="card-text">consectetur adipiscing elit. Nunc id lorem sagittis, laoreet dui sit amet, tincidunt est.</p>
+                    </div>
+                </a>
+                <a href="#" class="card lorem5">
+                    <div class="card-body">
+                        <h3 class="card-title">Lorem ipsum</h3>
+                        <p class="card-text">consectetur adipiscing elit. Nunc id lorem sagittis, laoreet dui sit amet, tincidunt est.</p>
+                    </div>
+                </a>
             </div>
-        </a>        
-        <a href="#" class="card lorem2">
-            <div class="card-body">
-                <h5 class="card-title">Lorem ipsum</h5>
-                <span class="card-text">consectetur adipiscing elit. Nunc id lorem sagittis, laoreet dui sit amet, tincidunt est.</span>
-            </div>
-        </a>
-        <a href="#" class="card lorem3">
-            <div class="card-body">
-                <h5 class="card-title">Lorem ipsum</h5>
-                <span class="card-text">consectetur adipiscing elit. Nunc id lorem sagittis, laoreet dui sit amet, tincidunt est.</span>
-            </div>
-        </a>
-        <a href="#" class="card lorem4">
-            <div class="card-body">
-                <h5 class="card-title">Lorem ipsum</h5>
-                <span class="card-text">consectetur adipiscing elit. Nunc id lorem sagittis, laoreet dui sit amet, tincidunt est.</span>
-            </div>
-        </a>
-        <a href="#" class="card lorem5">
-            <div class="card-body">
-                <h5 class="card-title">Lorem ipsum</h5>
-                <span class="card-text">consectetur adipiscing elit. Nunc id lorem sagittis, laoreet dui sit amet, tincidunt est.</span>
-            </div>
-        </a>
-        </div>    
-    </section>
-
-    <section class="page-section" id="skills">
-        <div class="skills-card">
-            <div class="card-body">
-                <h2>Skills</h2>
-                <ol class="skill-list">
+            
+        </section>
+            
+        
+          
+        <section class="page-section flex-item" id="skills">
+            <h2 id="Skills">Skills</h2>
+            <div class="card skills-card">
+                <div class="card-body">
+                <ul class="skill-list">
                     <li>HTML</li>
                     <li>CSS, Bootstrap</li>
                     <li>JavaScript, jQuery, third party APIs</li>
@@ -93,24 +93,34 @@
                     <li>UI</li>
                     <li>UX</li>
                     <li>Team work</li>
-                </ol>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container-fluid">
-            <section class="page-section contact" id="contact">
-                <h2>Contact Me</h2>
-                <div>
-                    <address>
-                        <a href="tel:+44111111111" class="footer1">Phone number</a>
-                        <a href="mailto:whatever@hfejc.com" class="footer1">email</a>
-                        <a href="https://github.com/Minna23" class="footer1" target="_blank">Github</a>
-                    </address>
+                </ul>
                 </div>
-            </section>    
-        </div>
-    </footer>    
+            </div>
+        </section>
+        
+                
+    <footer class="page-section flex-item">
+        <h2 id="Contact-me">Contact me</h2>
+        <div class="card nav-item">
+            <div class="card-body">
+                <nav>
+                    <address>
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a href="tel:+44111111111" class="footer1">Phone number</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="mailto:whatever@hfejc.com" class="footer1">email</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="https://github.com/Minna23" class="footer1" target="_blank">Github</a>
+                        </li>
+                    </ul>
+                    </address>
+                </nav>
+            </div>                
+        </div>  
+    </footer>
+    
 </body>
 </html>

@@ -17,9 +17,19 @@ body {
   background-color: var(--primary);
 }
 
-  
+.jumbotron {
+    background-color: var(--primary);
+    border: solid 4px var(--complementer);
+    padding-bottom: 20px;
+} 
+
+.jumbotron img {
+    height: 200px;
+    padding:20px;
+}
+
 .hero-banner { 
-    height: 8em;
+    height: 10rem;
     background-color: var(--secondary);
     background-image: url(../images/02-hero-bg.jpg);
     background-blend-mode:soft-light;
@@ -40,8 +50,6 @@ body {
     display: inline;
 }
 
-img {padding:10px;}
-
 .page-section {
     display:flex;
     flex-direction: row;
@@ -58,7 +66,6 @@ img {padding:10px;}
     font-size: 200%;
     line-height: 1.1;
 }
-
   
 .page-section > div {
     flex: 0 0 77%;
@@ -68,12 +75,14 @@ img {padding:10px;}
       margin-bottom: 20px;
 }
     
-.container-fluid {
+
+.flex-container {
     display: flex;
     flex-wrap: wrap;
 }
 
-.card-group {
+
+.card {
     border: 5px solid var(--complementer);
     background-color: var(--secondary);
     color: darkgreen;
@@ -91,6 +100,14 @@ img {padding:10px;}
     font-size: medium;
     margin-right: 10px;
     margin-top: 10px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: baseline;
+    flex-wrap: wrap;
 }
 
 .lorem1 {
@@ -137,7 +154,42 @@ img {padding:10px;}
 }
   
 .card:hover {
-    background-color: aliceblue;
+    background-color: azure;
     background-blend-mode:hard-light;
 }
 
+.skills-card {
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    margin: 15px 15px 15px 20px;
+}
+    
+
+.skill-list {
+    padding: 10px;
+    margin: 10px;
+}
+
+
+li {
+    font-size: large;
+}
+
+.nav-item {
+    display: inline-block;
+    font-size: large;
+    padding:10px;
+       
+}  
+
+.footer1 {
+    display: block;
+    padding: 20px;
+    margin-left: 15px;
+}
+  
+
+  
